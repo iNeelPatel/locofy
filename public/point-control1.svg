@@ -1,0 +1,26 @@
+<svg width="159" height="79" viewBox="0 0 159 79" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g filter="url(#filter0_dd_101_639746)">
+<path d="M71.1777 35.6558C71.1777 40.074 74.7595 43.6558 79.1777 43.6558C83.596 43.6558 87.1777 40.074 87.1777 35.6558C87.1777 31.2375 83.596 27.6558 79.1777 27.6558C74.7595 27.6558 71.1777 31.2375 71.1777 35.6558Z" fill="#574EFA"/>
+<path d="M63.1777 35.6558C63.1777 44.4923 75.1777 59.6558 79.1777 59.6558C83.1777 59.6558 95.1777 44.4923 95.1777 35.6558C95.1777 26.8192 88.0143 19.6558 79.1777 19.6558C70.3412 19.6558 63.1777 26.8192 63.1777 35.6558Z" fill="#574EFA"/>
+<path d="M71.1777 35.6558C71.1777 40.074 74.7595 43.6558 79.1777 43.6558C83.596 43.6558 87.1777 40.074 87.1777 35.6558C87.1777 31.2375 83.596 27.6558 79.1777 27.6558C74.7595 27.6558 71.1777 31.2375 71.1777 35.6558Z" stroke="#F9F8FB" stroke-width="2"/>
+<path d="M63.1777 35.6558C63.1777 44.4923 75.1777 59.6558 79.1777 59.6558C83.1777 59.6558 95.1777 44.4923 95.1777 35.6558C95.1777 26.8192 88.0143 19.6558 79.1777 19.6558C70.3412 19.6558 63.1777 26.8192 63.1777 35.6558Z" stroke="#F9F8FB" stroke-width="2"/>
+</g>
+<defs>
+<filter id="filter0_dd_101_639746" x="-4.75781" y="-0.344238" width="167.936" height="87.8911" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feMorphology radius="1" operator="erode" in="SourceAlpha" result="effect1_dropShadow_101_639746"/>
+<feOffset dy="4"/>
+<feGaussianBlur stdDeviation="3"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0.0627451 0 0 0 0 0.0941176 0 0 0 0 0.156863 0 0 0 0.1 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_101_639746"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feMorphology radius="2" operator="erode" in="SourceAlpha" result="effect2_dropShadow_101_639746"/>
+<feOffset dy="2"/>
+<feGaussianBlur stdDeviation="2"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0.0627451 0 0 0 0 0.0941176 0 0 0 0 0.156863 0 0 0 0.1 0"/>
+<feBlend mode="normal" in2="effect1_dropShadow_101_639746" result="effect2_dropShadow_101_639746"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect2_dropShadow_101_639746" result="shape"/>
+</filter>
+</defs>
+</svg>

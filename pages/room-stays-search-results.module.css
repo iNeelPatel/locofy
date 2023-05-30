@@ -1,0 +1,253 @@
+.ofTheIndustry {
+  align-self: stretch;
+  position: relative;
+  letter-spacing: -0.1px;
+  line-height: 20px;
+  font-weight: 600;
+  display: none;
+  height: 20px;
+  flex-shrink: 0;
+}
+.left {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 8px;
+}
+.divider {
+  position: relative;
+  border-right: 1px solid #dae0e6;
+  box-sizing: border-box;
+  width: 1px;
+  height: 17px;
+}
+.right {
+  gap: 8px;
+}
+.buttonWrapper,
+.filters,
+.right {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.filters {
+  align-self: stretch;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+}
+.blogBaseChild {
+  align-self: stretch;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  height: 285px;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.hotelAssenzio {
+  line-height: 28px;
+  font-weight: 600;
+}
+.hotelAssenzio,
+.starIcon,
+.text {
+  position: relative;
+}
+.starIcon {
+  width: 20px;
+  height: 20px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.text {
+  line-height: 22px;
+  font-weight: 600;
+}
+.button1,
+.hotelAssenzioParent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.button1 {
+  border-radius: 5px;
+  overflow: hidden;
+  justify-content: center;
+  gap: 2px;
+  font-size: 15px;
+}
+.hotelAssenzioParent {
+  align-self: stretch;
+  justify-content: space-between;
+}
+.div {
+  position: relative;
+  letter-spacing: -0.1px;
+  line-height: 20px;
+  font-weight: 500;
+}
+.apr2022Parent,
+.frameGroup {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 4px;
+}
+.apr2022Parent {
+  width: 264px;
+  flex-direction: row;
+  font-size: 14px;
+}
+.frameGroup {
+  align-self: stretch;
+  flex-direction: column;
+}
+.butHappyTo {
+  flex: 1;
+  position: relative;
+  letter-spacing: -0.1px;
+  line-height: 20px;
+}
+.button,
+.textInput {
+  align-self: stretch;
+  display: flex;
+  justify-content: flex-start;
+}
+.textInput {
+  overflow: hidden;
+  flex-direction: row;
+  align-items: center;
+  font-size: 14px;
+  color: #5f6d7e;
+}
+.button {
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+}
+.placeholderIcon {
+  position: relative;
+  width: 20px;
+  height: 20px;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: none;
+}
+.text1 {
+  position: relative;
+  letter-spacing: -0.1px;
+  line-height: 22px;
+  font-weight: 600;
+}
+.button2 {
+  border-radius: 5px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  font-size: 15px;
+}
+.blogBase,
+.verticalContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.verticalContainer {
+  align-self: stretch;
+  padding: 16px;
+  gap: 16px;
+}
+.blogBase {
+  flex: 1;
+  border-radius: 10px;
+  background-color: #fff;
+  border: 1px solid #dae0e6;
+  overflow: hidden;
+}
+.blogPost,
+.buttonContainer,
+.content,
+.content1,
+.contentParent {
+  align-self: stretch;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.content,
+.content1 {
+  flex-direction: row;
+  gap: 32px;
+}
+.blogPost,
+.buttonContainer,
+.contentParent {
+  flex-direction: column;
+}
+.blogPost,
+.contentParent {
+  gap: 32px;
+  font-size: 20px;
+  color: #000;
+}
+.blogPost {
+  background-color: #fff;
+  padding: 24px 124px 64px;
+  gap: 24px;
+  text-align: left;
+  font-size: 14px;
+  color: #437ef7;
+  font-family: Inter;
+}
+.frameParent,
+.roomStaysSearchResults {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.frameParent {
+  width: 1512px;
+  overflow-y: auto;
+  align-items: flex-start;
+}
+.roomStaysSearchResults {
+  position: relative;
+  width: 100%;
+  padding: 0 0.5px 0 0;
+  box-sizing: border-box;
+  align-items: center;
+}
+@media screen and (max-width: 960px) {
+  .content {
+    flex-direction: row;
+  }
+  .contentParent {
+    flex-direction: column;
+    opacity: 0;
+  }
+  .contentParent.animate {
+    animation: 1s ease 0s 1 normal forwards fade-in;
+  }
+  @keyframes fade-in {
+    0% {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+}
+@media screen and (max-width: 420px) {
+  .content {
+    flex-direction: row;
+  }
+}

@@ -1,0 +1,110 @@
+.headline,
+.ofTheIndustry {
+  position: relative;
+  letter-spacing: -0.1px;
+  line-height: 20px;
+  font-weight: 600;
+}
+.headline {
+  align-self: stretch;
+  letter-spacing: -0.02em;
+  line-height: 40px;
+}
+.letUsHelp {
+  margin: 0;
+}
+.paragraph {
+  align-self: stretch;
+  position: relative;
+  font-size: 16px;
+  letter-spacing: -0.1px;
+  line-height: 24px;
+  color: #5f6d7e;
+  white-space: pre-wrap;
+  text-align: center;
+  display: none;
+}
+.paragraphContainer {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 16px;
+}
+.placeholderIcon {
+  position: relative;
+  width: 20px;
+  height: 20px;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: none;
+}
+.text {
+  position: relative;
+  line-height: 22px;
+  font-weight: 600;
+}
+.button,
+.button1 {
+  flex-direction: row;
+  align-items: center;
+}
+.button1 {
+  flex: 1;
+  border-radius: 100px;
+  background-color: #574efa;
+  box-shadow: 0 1px 2px rgba(16, 24, 40, 0.04);
+  overflow: hidden;
+  display: none;
+  padding: 12px 18px;
+  justify-content: center;
+  gap: 6px;
+}
+.button {
+  align-self: stretch;
+  display: flex;
+  justify-content: flex-start;
+  gap: 16px;
+  text-align: center;
+  font-size: 15px;
+}
+.card,
+.container {
+  align-items: flex-start;
+}
+.card {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 32px;
+  font-size: 32px;
+}
+.container {
+  width: 1280px;
+  gap: 8px;
+}
+.callToAction,
+.container,
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.content {
+  width: 1512px;
+  padding: 0 32px;
+  box-sizing: border-box;
+  align-items: center;
+}
+.callToAction {
+  align-self: stretch;
+  background-color: #574efa;
+  padding: 64px 0;
+  align-items: flex-start;
+  text-align: left;
+  font-size: 14px;
+  color: #fff;
+  font-family: Inter;
+}

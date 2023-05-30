@@ -1,0 +1,176 @@
+.placeholderIcon {
+  position: relative;
+  width: 16px;
+  height: 16px;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: none;
+}
+.features {
+  position: relative;
+  letter-spacing: -0.1px;
+  line-height: 24px;
+  font-weight: 600;
+}
+.footerLinks {
+  border-radius: 5px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+}
+.link {
+  position: relative;
+  letter-spacing: -0.1px;
+  line-height: 24px;
+  font-weight: 500;
+}
+.textInput,
+.verticalContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.verticalContainer {
+  flex: 1;
+  gap: 24px;
+}
+.textInput {
+  align-self: stretch;
+  gap: 12px;
+  color: #5f6d7e;
+}
+.frameIcon,
+.frameIcon1 {
+  position: relative;
+  width: 120px;
+  height: 40px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.frameIcon1 {
+  width: 135px;
+}
+.table,
+.verticalContainer5 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 12px;
+}
+.table {
+  flex-direction: row;
+  gap: 80px;
+}
+.totelIcon,
+.unionIcon {
+  position: relative;
+  width: 22.6px;
+  height: 28px;
+}
+.totelIcon {
+  width: 51.15px;
+  height: 16.5px;
+}
+.companyLogo,
+.companyLogo1 {
+  display: flex;
+  justify-content: center;
+}
+.companyLogo1 {
+  flex-direction: row;
+  padding: 10px;
+  align-items: center;
+  gap: 12px;
+}
+.companyLogo {
+  flex-direction: column;
+  padding: 8px 0;
+  align-items: flex-start;
+}
+.lookscoutAllRights {
+  position: relative;
+  letter-spacing: -0.1px;
+  line-height: 24px;
+}
+.logoIcon {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.socialPlatformsLogo {
+  text-decoration: none;
+  position: relative;
+  width: 24px;
+  height: 24px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.logoIcon1,
+.logoIcon2 {
+  position: absolute;
+  height: 100%;
+  width: 98.02%;
+  top: 0;
+  right: 0.99%;
+  bottom: 0;
+  left: 0.99%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.logoIcon2 {
+  width: 84.23%;
+  right: 7.88%;
+  left: 7.88%;
+}
+.content,
+.socialIcons {
+  display: flex;
+  flex-direction: row;
+}
+.socialIcons {
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 24px;
+}
+.content {
+  align-self: stretch;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
+  color: #5f6d7e;
+}
+.footer,
+.links {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.links {
+  width: 1280px;
+  align-items: flex-start;
+  gap: 64px;
+}
+.footer {
+  align-self: stretch;
+  background-color: #fff;
+  padding: 40px 0;
+  align-items: center;
+  text-align: left;
+  font-size: 16px;
+  color: #272d37;
+  font-family: Inter;
+}

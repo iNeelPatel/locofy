@@ -1,0 +1,107 @@
+.hintText,
+.where {
+  align-self: stretch;
+  position: relative;
+  letter-spacing: -0.1px;
+  line-height: 20px;
+  font-weight: 500;
+}
+.hintText {
+  color: #5f6d7e;
+  display: none;
+  align-items: center;
+  height: 20px;
+  flex-shrink: 0;
+}
+.mobileInputField1 {
+  background-color: transparent;
+  align-self: stretch;
+}
+.mobileInputField {
+  flex: 1;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 8px;
+}
+.mobileInputField3 {
+  background-color: transparent;
+}
+.hintText2,
+.label {
+  position: relative;
+  letter-spacing: -0.1px;
+  line-height: 20px;
+  font-weight: 500;
+  display: none;
+}
+.hintText2 {
+  color: #5f6d7e;
+}
+.mobileInputField4 {
+  border-radius: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 12px;
+}
+.mobileInputField2,
+.mobileInputFieldGroup {
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+}
+.mobileInputFieldGroup {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.mobileInputField2 {
+  overflow: hidden;
+  flex-direction: column;
+  justify-content: center;
+}
+.mobileInputFieldParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: 24px;
+}
+.webModal,
+.webModalWrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.webModal {
+  border-radius: 24px;
+  background-color: #fff;
+  border: 1px solid #dae0e6;
+  padding: 32px;
+  align-items: flex-start;
+}
+.webModalWrapper {
+  padding: 12px 124px;
+  align-items: flex-end;
+  background-image: url(/frame-11@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  text-align: left;
+  font-size: 14px;
+  color: #272d37;
+  font-family: Inter;
+}
+@media screen and (max-width: 960px) {
+  .mobileInputFieldParent {
+    flex-direction: column;
+    gap: 24px;
+    margin: auto;
+  }
+}
